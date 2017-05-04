@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  license-server:
+    build:
+      context: ./license_portal
+    links:
+      - postgres
+    volumes:
+      - ./license_portal:/app
+
+  postgres:
+    image: 'postgres:9.6'
+    environment:
+     POSTGRES_USER: 'licenses'
+     POSTGRES_PASSWORD: 'licenses'
+     POSTGRES_DB: 'licenses'
