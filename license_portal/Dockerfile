@@ -1,5 +1,4 @@
-FROM python:3.6
-MAINTAINER Andrew Young <andrew.young@castlabs.com>
+FROM python:3.10
 
 RUN mkdir -p /app
 COPY requirements.txt /app

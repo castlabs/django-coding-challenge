@@ -6,7 +6,7 @@ Hi, this is the castLabs Django coding challenge. This challenge is designed to 
 Requirements
 ============
 
-- Completed using Python v3.6 and all code must be annotated with type hints from the standard library `typing` module.
+- Completed using Python v3.10 and all code must be annotated with type hints from the standard library `typing` module.
 - Runs on docker and the application can be started with a single command `docker-compose up`
 - The running application can be reached in the browser at *[docker host]:8080*
 - The application is delivered with a sufficient admin reachable at *[docker host]:8080/admin*
